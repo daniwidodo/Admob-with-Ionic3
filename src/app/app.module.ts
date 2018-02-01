@@ -8,7 +8,6 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
 // Admob
-//import { AdMobPro } from '@ionic-native/admob-pro';
 import { AdMobFree } from '@ionic-native/admob-free';
 
 @NgModule({
@@ -29,7 +28,6 @@ import { AdMobFree } from '@ionic-native/admob-free';
     StatusBar,
     SplashScreen,
     AdMobFree,
-    //AdMobPro,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
