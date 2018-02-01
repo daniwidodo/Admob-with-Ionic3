@@ -1,1 +1,6 @@
-### :point_right: This starter repo has moved to the [ionic-team/starters](https://github.com/ionic-team/starters/tree/master/ionic-angular/official/blank) repo! :point_left:
+This is the Ionic 3 Hybrid App to show Google Ads in mobile app.
+
+### References
+[Ionic AdMobFree](https://ionicframework.com/docs/native/admob-free/)
+
+[Google Admob](https://www.google.co.in/admob/)
