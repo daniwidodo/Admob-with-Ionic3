@@ -7,6 +7,10 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
+// Admob
+//import { AdMobPro } from '@ionic-native/admob-pro';
+import { AdMobFree } from '@ionic-native/admob-free';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -24,6 +28,8 @@ import { HomePage } from '../pages/home/home';
   providers: [
     StatusBar,
     SplashScreen,
+    AdMobFree,
+    //AdMobPro,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
